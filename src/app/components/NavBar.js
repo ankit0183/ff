@@ -5,10 +5,10 @@
 import React, { useEffect, useState } from "react";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+// import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-
+import { FaTimes } from "react-icons/fa";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
@@ -72,7 +72,7 @@ function NavBar() {
         >
           {isOpen ? (
             <FontAwesomeIcon
-              icon={faTimes}
+              icon={FaTimes}
               style={{ color: "white", height: "24px" }}
             />
           ) : (
