@@ -5,7 +5,6 @@
 import React, { useEffect, useState } from "react";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
 import { FaTimes } from "react-icons/fa";
