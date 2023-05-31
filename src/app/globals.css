@@ -1,0 +1,12 @@
+.myimage,
+.serviceimage,
+.ourworkimages,
+.homeimage{
+  background-image: url('../../public/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+
